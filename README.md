@@ -24,10 +24,11 @@ This is a loan qualifier application, where given a loan applicant's financial d
 
 ## Usage
 
-![Screenshot to save csv](https://github.com/jenny3141/loan_qualifier_app/tree/main/images/save_csv.png)
+![Instructions to save csv](https://github.com/jenny3141/loan_qualifier_app/tree/main/images/save_csv.png)
 
-![Screenshot to exit app](https://github.com/jenny3141/loan_qualifier_app/tree/main/images/no_save.png)
+![Instructions to exit app](https://github.com/jenny3141/loan_qualifier_app/tree/main/images/no_save.png)
 
+Alternatively you can exit the app with Command-C
 
 ---
 
