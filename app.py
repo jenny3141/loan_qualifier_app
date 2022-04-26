@@ -113,13 +113,17 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
-    questionary.confirm("Do you wish to save your file as a csv?").ask()
-    name = questionary.text("Enter your name with an underscore instead of spaces ex: jennifer_jackson").ask()
-    filepath = name + ".csv"
-    filepath = name +".csv"
-    save_csv(filepath, qualifying_loans)
-    print(f"File with {name} was saved")
-
+    save = questionary.confirm("Do you wish to save your file as a csv?").ask()
+    if save == False:
+        print('Exiting app...')
+        print('Done')
+        quit()
+    else:
+        name = questionary.text("Enter your name with an underscore instead of spaces ex: jennifer_jackson").ask()
+        filepath = name + ".csv"
+        filepath = name +".csv"
+        save_csv(filepath, qualifying_loans)
+        print(f"File with {name} was saved")
 
 
 def run():
