@@ -1,33 +1,64 @@
-# Project Title
+# Loan Qualifier App
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is a loan qualifier application, where given a loan applicant's financial data, it will determine whether the applicant qualifies for a loan. Applicants are also able to save their qualifying loans in a CSV spreadsheet with details such as Max Loan Amount, Max LTV, Max DTI, Min Credit Score, and Interest Rate.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+- Python
+- [Python Fire Library](https://github.com/google/python-fire)
+- [Python CSV Library](https://docs.python.org/3/library/csv.html)
+- MacOS 10.14. 4 or later
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+1. Install `pip` (Python's package installer)
+2. Clone the repo with `git clone https://github.com/jenny3141/crypto_arbitrage.git`
+3. Install packages required using `pip install fire` and `pip install questionary`
+4. Run the app with `python app.py`
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+![Instructions to save csv](https://github.com/jenny3141/loan_qualifier_app/tree/main/images/save_csv.png)
+
+![Instructions to exit app](https://github.com/jenny3141/loan_qualifier_app/tree/main/images/no_save.png)
+
+Alternatively you can exit the app with Command-C
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Jennifer Jackson
+jennifermjackson@berkeley.edu
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+MIT License
+
+Copyright (c) [2022] [Jennifer Jackson]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
